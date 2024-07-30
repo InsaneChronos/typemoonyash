@@ -199,9 +199,9 @@ body {
 	background-size: contain;
 	}
 
-#banner-archive {
+#banner-arkhive {
 	width: 850px;
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-archive.png) top center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-arkhive.png) top center no-repeat;
 	background-size: contain;
 	}
 
@@ -322,11 +322,11 @@ p {
 		transition: 0s;
 		}
 
-	#banner-vk, #banner-tg, #banner-chronos, #banner-attic, #banner-archive {
+	#banner-vk, #banner-tg, #banner-chronos, #banner-attic, #banner-arkhive {
 		background-size: cover;
 		}
 
-	#banner-archive {
+	#banner-arkhive {
 		width: 100%;
 		}
 
