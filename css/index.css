@@ -1,3 +1,10 @@
+body {
+	background: #F5F5F5;
+	visibility: hidden;
+	opacity: 0;
+	transition: .5s ease;
+	}
+
 #sidenav {
 	box-shadow: none !important;
 	}
