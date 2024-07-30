@@ -292,7 +292,7 @@ p {
 
 	#sidenav {
 		width: 100%;
-		height: 100px;
+		height: 10%;
 		flex-direction: row;
 		bottom: 0;
 		}
@@ -305,7 +305,7 @@ p {
 
 	#sidenav-more-menu {
 		width: 100%;
-		height: calc(100% - 100px);
+		height: 90%;
 		left: -100%;
 		}
 
@@ -349,7 +349,7 @@ p {
 
 	.page {
 		width: 100%;
-		height: calc(100% - 100px) !important;
+		height: 90% !important;
 		}
 
 	#title {
