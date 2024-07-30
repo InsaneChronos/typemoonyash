@@ -144,19 +144,35 @@ body {
 
 .sidenav-banner {
 	width: 400px;
-	height: 100px;
-	background: #FFFFFF;
+	height: 95px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-bg.png) top center repeat-x;
 	border-radius: 10px;
+	overflow: hidden;
+	}
+
+.sidenav-banner:hover:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: rgb(255 255 255 / 25%);
+	position: relative;
+	top: -95px;
 	}
 
 .sidenav-banner div {
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
 	}
 
-.sidenav-banner:hover > div {
-	opacity: .5;
+.sidenav-banner div:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 5px;
+	background: #FFC81F;
+	position: relative;
+	top: 90px;
 	}
 
 .sidenav-banner:nth-child(5) {
@@ -164,28 +180,28 @@ body {
 	}
 
 #banner-vk {
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-vk.png) center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-vk.png) top center no-repeat;
 	background-size: contain;
 	}
 
 #banner-tg {
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-tg.png) center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-tg.png) top center no-repeat;
 	background-size: contain;
 	}
 
 #banner-chronos {
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-chronos.png) center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-chronos.png) top center no-repeat;
 	background-size: contain;
 	}
 
 #banner-attic {
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-attic.png) center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-attic.png) top center no-repeat;
 	background-size: contain;
 	}
 
 #banner-archive {
 	width: 850px;
-	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-archive.png) center no-repeat;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-archive.png) top center no-repeat;
 	background-size: contain;
 	}
 
