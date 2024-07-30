@@ -1,0 +1,144 @@
+#sidenav {
+	box-shadow: none !important;
+	}
+
+#index {
+	height: 100%;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/index/bg.png) center no-repeat;
+	background-size: cover;
+	}
+
+#overlay {
+	width: 100%;
+	height: 100%;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/common/body-bg.png) center repeat fixed;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	}
+
+#logo {
+	width: 900px;
+	height: 100px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/index/logo.png) center no-repeat;
+	background-size: contain;
+	}
+
+#links {
+	width: 800px;
+	height: 56px;
+	display: flex;
+	flex-direction: row;
+	gap: 25px;
+	}
+
+#links a {
+	background: #0541A2;
+	text-decoration: none;
+	}
+
+#links h1 {
+	width: calc(100% - 70px);
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-family: "Akrobat-B";
+	color: #FFFFFF;
+	font-weight: normal;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	transform: skewX(14deg);
+	margin: 0;
+	position: absolute;
+	right: 0;
+	}
+
+#vk, #tg {
+	width: 100%;
+	height: 50px;
+	border: 3px solid #FFFFFF;
+	border-radius: 6px;
+	transform: skewX(-14deg);
+	box-shadow: 0px 0px 15px rgb(255 255 255 / 50%);
+	overflow: hidden;
+	}
+
+#vk:hover, #tg:hover {
+	cursor: pointer;
+	background: #FFC81F;
+	}
+
+#vk:hover h1, #tg:hover h1 {
+	color: #0541A2;
+	}
+
+#vk:before, #tg:before {
+	content: '';
+	display: block;
+	width: 50px;
+	height: 50px;
+	background: #FFC81F;
+	position: absolute;
+	left: 20px;
+	}
+
+#vk-logo {
+	width: 50px;
+	height: 50px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/index/vk.svg) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	transform: skewX(14deg);
+	}
+
+#tg-logo {
+	width: 50px;
+	height: 50px;
+	background: url(https://insanechronos.github.io/typemoonyash/assets/index/tg.svg) center no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 0px;
+	left: 20px;
+	transform: skewX(14deg);
+	}
+
+@media screen and (max-width: 500px) {
+
+	#overlay {
+		gap: 0px;
+		}
+
+	#logo {
+		width: 90%;
+		}
+
+	#links {
+		width: 80%;
+		height: auto;
+		flex-direction: column;
+		}
+
+	#links h1 {
+		height: 30px;
+		font-size: 14px;
+		}
+
+	#vk, #tg {
+		height: 30px;
+		}
+
+	#vk-logo, #tg-logo {
+		width: 40px;
+		height: 40px;
+		top: -5px;
+		left: 25px;
+		}
+
+	}
