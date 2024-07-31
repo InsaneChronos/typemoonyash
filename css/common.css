@@ -175,10 +175,6 @@ body {
 	top: 90px;
 	}
 
-.sidenav-banner:nth-child(5) {
-	width: 850px;
-	}
-
 #banner-vk {
 	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-vk.png) top center no-repeat;
 	background-size: contain;
@@ -200,7 +196,6 @@ body {
 	}
 
 #banner-archive {
-	width: 850px;
 	background: url(https://insanechronos.github.io/typemoonyash/assets/common/banner-archive.png) top center no-repeat;
 	background-size: contain;
 	}
@@ -332,10 +327,6 @@ p {
 
 	#banner-vk, #banner-tg, #banner-chronos, #banner-attic, #banner-archive {
 		height: calc(100% - 5px);
-		}
-
-	#banner-archive {
-		width: 100%;
 		}
 
 	#content {
